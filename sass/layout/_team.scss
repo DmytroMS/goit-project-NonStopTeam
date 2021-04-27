@@ -14,6 +14,10 @@
     color: #5e4141;
   }
 
+  &__title-decor {
+    color: rgb(255, 0, 0);
+  }
+
   &__card {
     background: var(--body-background-color);
     box-shadow: var(--box-shadow-card-team);
@@ -22,10 +26,10 @@
   }
 
   &__name {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 17px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;

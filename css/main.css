@@ -1179,6 +1179,10 @@ img {
   color: #5e4141;
 }
 
+.team__title-decor {
+  color: red;
+}
+
 .team__card {
   background: var(--body-background-color);
   box-shadow: var(--box-shadow-card-team);
@@ -1189,11 +1193,12 @@ img {
 .team__name {
   margin-bottom: 10px;
   font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 17px;
   line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: #5e4141;
 }
 
 .team__profession {
