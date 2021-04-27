@@ -8,9 +8,15 @@
   }
 }
 
+.team__pic {
+  max-width: 270px;
+  max-height: 360px;
+  overflow: hidden;
+}
+
 .team {
   background: var(--button-section-background-color);
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 60px;
 
   &__title {
