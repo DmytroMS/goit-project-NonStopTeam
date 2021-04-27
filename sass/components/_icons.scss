@@ -1,0 +1,21 @@
+.contacts__mail-icon {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: var(--font-description);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__icon-smartphone {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+  fill: var(--font-description);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
