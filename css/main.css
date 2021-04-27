@@ -1162,6 +1162,15 @@ img {
   }
 }
 
+.team__item {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.team__item:focus, .team__item:hover {
+  transform: scale(1.1);
+}
+
 .team {
   background: var(--button-section-background-color);
   padding-top: 60px;
